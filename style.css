@@ -80,8 +80,8 @@ p {
 
 .divider {
   width: 60px;
-  height: 1px;
-  background: var(--border);
+  height: 2px;
+  background: #4C0013;  /*<var(--border);>*/
   margin: 2.5rem auto;
 }
 

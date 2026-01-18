@@ -1,1 +1,146 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8" />
+  <title>Vårt bröllop</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --bg: #faf9f7;
+      --text: #1f1f1f;
+      --accent: #6b705c;
+      --border: #e5e5e5;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Inter', system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    main {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 2.5rem 1.5rem 4rem;
+      text-align: center;
+    }
+
+    header {
+      margin-bottom: 3rem;
+    }
+
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.6rem;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+    }
+
+    .date {
+      font-size: 1.1rem;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: var(--accent);
+    }
+
+    section {
+      margin-bottom: 3rem;
+    }
+
+    h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.6rem;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      margin: 0.5rem 0;
+    }
+
+    .divider {
+      width: 60px;
+      height: 1px;
+      background: var(--border);
+      margin: 2.5rem auto;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 1.2rem;
+      padding: 0.9rem 1.6rem;
+      border-radius: 999px;
+      background: var(--accent);
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+      transition: transform 0.15s ease, opacity 0.15s ease;
+    }
+
+    .button:hover {
+      transform: translateY(-1px);
+      opacity: 0.9;
+    }
+
+    footer {
+      font-size: 0.9rem;
+      color: #777;
+    }
+
+    @media (max-width: 480px) {
+      h1 {
+        font-size: 2.2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <main>
+
+    <header>
+      <h1>Sara & Bertil</h1>
+      <div class="date">Den 10e oktober</div>
+    </header>
+
+    <section>
+      <p>Vi gifter oss och skulle älska att fira dagen tillsammans med dig.</p>
+      <p>Mer information kommer, men tills vidare vill vi gärna veta om du kan komma.</p>
+    </section>
+
+    <div class="divider"></div>
+
+    <section>
+      <h2>OSA</h2>
+      <p>Vänligen svara senast <strong>1 maj 2026</strong>.</p>
+      <a class="button" href="https://forms.gle/XXXX" target="_blank">OSA här</a>
+    </section>
+
+    <div class="divider"></div>
+
+    <section>
+      <h2>Plats</h2>
+      <p>Kyrka eller plats</p>
+      <p>Ort</p>
+    </section>
+
+    <footer>
+      <p>Vi ser fram emot att fira med dig 🤍</p>
+    </footer>
+
+  </main>
+
+</body>
+</html>
 

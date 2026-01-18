@@ -68,12 +68,14 @@ h2 {
   font-family: "Bodoni MT", "Bodoni", serif;
   font-size: 1.6rem;
   margin-bottom: 0.5rem;
+  color: #4C0013;
 }
 
 p {
   margin: 0.5rem 0;
   font-size: 1.1rem;
   font-family: "Bodoni MT", "Bodoni", serif;
+  color: #4C0013;
 }
 
 .divider {

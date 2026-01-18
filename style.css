@@ -79,7 +79,7 @@ p {
 }
 
 .divider {
-  width: 60px;
+  width: 160px;
   height: 2px;
   background: #4C0013;  /*<var(--border);>*/
   margin: 2.5rem auto;

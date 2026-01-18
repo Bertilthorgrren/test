@@ -1,10 +1,17 @@
 
 
+body {
+  margin: 0;
+  font-family: "Bodoni MT", "Bodoni", serif;
+  color: #1f1f1f;
+  line-height: 1.6;
 
-    body {
-      margin: 0;
-      font-family: "Bodoni MT", "Bodoni", serif;
-      background: #faf9f7;
-      color: #1f1f1f;
-      line-height: 1.6;
-    }
+  /* Bakgrundsfärg */
+  background-color: #faf9f7;
+
+  /* Bakgrundsbild i hörnen */
+  background-image: url('IMG_4764.jpg');
+  background-repeat: no-repeat; 
+  background-position: top left, top right, bottom left, bottom right;
+  background-size: 100px 100px; /* justera storlek på hörnramen */
+}

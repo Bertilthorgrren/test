@@ -19,7 +19,7 @@ body {
  .logo-container {
   text-align: center;     /* centrerar loggan */
   margin-top: 20px;       /* lite luft ovanför */
-  margin-bottom: 15px;    /* luft under loggan */
+  margin-bottom: 20px;    /* luft under loggan */
 }
 
 .logo {

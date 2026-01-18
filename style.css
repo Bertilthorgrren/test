@@ -87,7 +87,8 @@ p {
 .google-map {
   width: 100%;            /* fyller sektionen horisontellt */
   height: 300px;          /* höjd på kartan */
-  border: 0;              /* tar bort ram */
+  border: 2;              /* tar bort ram */
+  border-color: #591e17;
   border-radius: 8px;     /* valfritt, rundar hörn */
 }
 .divider {

@@ -44,7 +44,7 @@ h1 {
   font-size: 2.6rem;
   font-weight: 600;
   margin-bottom: 0.5rem;
-  color: #4C0013;
+  color: #591e17;
 }
 
 .date {
@@ -68,14 +68,14 @@ h2 {
   font-family: "Bodoni MT", "Bodoni", serif;
   font-size: 1.6rem;
   margin-bottom: 0.5rem;
-  color: #4C0013;
+  color: #591e17;
 }
 
 p {
   margin: 0.5rem 0;
   font-size: 1.1rem;
   font-family: "Bodoni MT", "Bodoni", serif;
-  color: #4C0013;
+  color: #591e17;
 }
 .map {
   max-width: 680px;       /* samma bredd som main */
@@ -93,7 +93,7 @@ p {
 .divider {
   width: 160px;
   height: 2px;
-  background: #4C0013;  /*<var(--border);>*/
+  background: #591e17;  /*<var(--border);>*/
   margin: 2.5rem auto;
 }
 
@@ -102,7 +102,7 @@ p {
   margin-top: 1.2rem;
   padding: 0.9rem 1.6rem;
   border-radius: 999px;
-  background: #4C0013;
+  background: #591e17;
   color: white;
   text-decoration: none;
   font-weight: 500;

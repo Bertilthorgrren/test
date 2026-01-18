@@ -27,12 +27,12 @@
 </head>
 <body>
 
-  <h1>Anna & Erik</h1>
-  <p>Vi gifter oss den 15 juni 2026</p>
+  <h1>Sara & Bertil</h1>
+  <p>Vi gifter oss den 10 oktober 2026</p>
 
   <h2>OSA</h2>
   <p>Vänligen svara senast 1 maj</p>
-  <a class="button" href="https://forms.gle/XXXX">OSA här</a>
+  <a class="button" href="[https://forms.gle/XXXX](https://forms.gle/Raq2y4jXKtFUQ9eaA)">OSA här</a>
 
 </body>
 </html>

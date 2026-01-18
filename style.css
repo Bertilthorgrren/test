@@ -77,7 +77,19 @@ p {
   font-family: "Bodoni MT", "Bodoni", serif;
   color: #4C0013;
 }
+.map {
+  max-width: 680px;       /* samma bredd som main */
+  margin: 0 auto;         /* centrerar sektionen */
+  padding: 1rem;          /* lite luft runt */
+  text-align: center;     /* centrerar rubrik och iframe */
+}
 
+.google-map {
+  width: 100%;            /* fyller sektionen horisontellt */
+  height: 300px;          /* höjd på kartan */
+  border: 0;              /* tar bort ram */
+  border-radius: 8px;     /* valfritt, rundar hörn */
+}
 .divider {
   width: 160px;
   height: 2px;

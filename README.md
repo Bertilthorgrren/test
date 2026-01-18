@@ -27,7 +27,7 @@
 
   <h1>Sara & Bertil</h1>
   <p>Vi gifter oss den 10 oktober 2026</p>
-  <p>Det vore så kul om ni villee komma</p>
+  <p>Det vore så kul om ni ville komma</p>
 
   <h2>OSA</h2>
   <p>Vänligen svara senast 1 maj</p>

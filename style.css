@@ -16,13 +16,16 @@ body {
   color: var(--text);
   line-height: 1.6;
 }
-  .hero {
-  width: 10%;
-  height: 180px;            /* justera höjd */
-  background-image: url('IMG_0765.png');
-  background-size: cover;   /* fyller hela bredden */
-  background-position: center;
-  background-repeat: no-repeat;
+ .logo-container {
+  text-align: center;     /* centrerar loggan */
+  margin-top: 20px;       /* lite luft ovanför */
+  margin-bottom: 20px;    /* luft under loggan */
+}
+
+.logo {
+  width: 4cm;             /* exakt bredd */
+  height: 4cm;            /* exakt höjd */
+  object-fit: contain;    /* behåller proportionerna */
 }
 
 main {

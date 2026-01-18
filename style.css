@@ -8,7 +8,7 @@ body {
 
   /* Hörnram med JPEG */
   background-image: url('IMG_4764.jpg');
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; 
   background-position: top left, top right, bottom left, bottom right;
   background-size: 100px 100px;
 }

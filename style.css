@@ -17,8 +17,8 @@ body {
   line-height: 1.6;
 }
   .hero {
-  width: 100%;
-  height: 320px;            /* justera höjd */
+  width: 10%;
+  height: 32px;            /* justera höjd */
   background-image: url('IMG_4764.jpg');
   background-size: cover;   /* fyller hela bredden */
   background-position: center;

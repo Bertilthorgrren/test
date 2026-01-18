@@ -23,8 +23,8 @@ body {
 }
 
 .logo {
-  width: 4cm;             /* exakt bredd */
-  height: 4cm;            /* exakt höjd */
+  width: 3cm;             /* exakt bredd */
+  height: 3cm;            /* exakt höjd */
   object-fit: contain;    /* behåller proportionerna */
 }
 
@@ -36,7 +36,6 @@ main {
 }
 
 header {
-  margin-top: 1cm;  
   margin-bottom: 3rem;
 }
 

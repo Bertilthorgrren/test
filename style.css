@@ -83,6 +83,24 @@ h2 {
   max-width: 300px;    /* så de inte blir för breda */
 }
 
+.two-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.two {
+  text-align: center;
+  font-size: 0.5rem;
+}
+
+.divider-vertical {
+  width: 2px;
+  height: 60px;
+  background: #591e17;;
+}
 
 p {
   margin: 0.5rem 0;

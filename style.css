@@ -73,7 +73,7 @@ h2 {
 
 .two-columns {
   display: flex;
-  gap: 2rem;           /* avstånd mellan texterna */
+  gap: 1cm;           /* avstånd mellan texterna */
   justify-content: center;
   margin-bottom: 2rem;
 }

@@ -171,3 +171,14 @@ footer {
     max-width: none;
   }
 }
+@media (max-width: 480px) {
+  .two-wrapper {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .divider-vertical {
+    width: 60px;
+    height: 1px;
+  }
+}

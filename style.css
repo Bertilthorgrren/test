@@ -71,6 +71,19 @@ h2 {
   color: #591e17;
 }
 
+.two-columns {
+  display: flex;
+  gap: 2rem;           /* avstånd mellan texterna */
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.column {
+  flex: 1;             /* båda tar lika mycket plats */
+  max-width: 300px;    /* så de inte blir för breda */
+}
+
+
 p {
   margin: 0.5rem 0;
   font-size: 1.1rem;
@@ -130,4 +143,13 @@ footer {
     height: 200px;     /* mindre höjd på mobil */
   }
 }
+@media (max-width: 480px) {
+  .two-columns {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
 
+  .column {
+    max-width: none;
+  }
+}

@@ -44,7 +44,7 @@ h1 {
   font-size: 2.6rem;
   font-weight: 600;
   margin-bottom: 0.5rem;
-  color: #591e17;
+  color: #B1524C;
 }
 
 .date {
@@ -69,7 +69,7 @@ h2 {
   font-family: "Bodoni MT", "Bodoni", serif;
   font-size: 1.6rem;
   margin-bottom: 0.5rem;
-  color: #591e17;
+  color: #B1524C;
 }
 
 .two-columns {
@@ -100,14 +100,14 @@ h2 {
 .divider-vertical {
   width: 2px;
   height: 100px;
-  background: #591e17;;
+  background: #B1524C;;
 }
 
 p {
   margin: 0.5rem 0;
   font-size: 1.1rem;
   font-family: "Bodoni MT", "Bodoni", serif;
-  color: #591e17;
+  color: #B1524C;
 }
 .map {
   max-width: 680px;       /* samma bredd som main */
@@ -120,13 +120,13 @@ p {
   width: 100%;            /* fyller sektionen horisontellt */
   height: 300px;          /* höjd på kartan */
   border: 2;              /* tar bort ram */
-  border-color: #591e17;
+  border-color: #B1524C;
   border-radius: 8px;     /* valfritt, rundar hörn */
 }
 .divider {
   width: 160px;
   height: 2px;
-  background: #591e17;  /*<var(--border);>*/
+  background: #B1524C;  /*<var(--border);>*/
   margin: 2.5rem auto;
 }
 
@@ -135,7 +135,7 @@ p {
   margin-top: 1.2rem;
   padding: 0.9rem 1.6rem;
   border-radius: 999px;
-  background: #591e17;
+  background: #B1524C;
   color: white;
   text-decoration: none;
   font-weight: 500;

@@ -54,6 +54,23 @@ h1 {
   color: var(--accent);
 }
 
+#playBtn {
+  background-color: #c89b6d;
+  color: white;
+  border: none;
+  padding: 14px 28px;
+  font-size: 18px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: sans-serif;
+}
+
+#playBtn:hover {
+  background-color: #b68658;
+  transform: scale(1.05);
+}
+
 section {
   margin-bottom: 0cm;
 }

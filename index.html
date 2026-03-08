@@ -40,6 +40,32 @@
     
     <div class="divider"></div>
 
+    <div class="divider"></div>
+
+<button id="playBtn">🎶 Spela vår låt</button>
+
+<audio id="song">
+  <source src="01 Underbart.m4a" type="audio/mp4">
+  Din webbläsare stödjer inte ljud.
+</audio>
+
+<script>
+const button = document.getElementById("playBtn");
+const song = document.getElementById("song");
+
+button.addEventListener("click", function () {
+  if (song.paused) {
+    song.play();
+    button.textContent = "⏸ Pausa vår låt";
+  } else {
+    song.pause();
+    button.textContent = "🎶 Spela vår låt";
+  }
+});
+</script>
+    
+    <div class="divider"></div>
+
     <section>
       <h2>Info</h2>
     </section>

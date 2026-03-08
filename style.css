@@ -54,22 +54,6 @@ h1 {
   color: var(--accent);
 }
 
-.rsvp-btn {
-  background-color: #6b1f16;   /* mörkröd */
-  color: white;
-  border: none;
-  padding: 22px 60px;
-  font-size: 28px;
-  border-radius: 60px;        /* gör den oval */
-  cursor: pointer;
-  font-family: Georgia, serif;
-  transition: all 0.25s ease;
-}
-
-.rsvp-btn:hover {
-  background-color: #5a1a12;
-  transform: scale(1.03);
-}
 
 section {
   margin-bottom: 0cm;

@@ -94,6 +94,10 @@ h2 {
   max-width: 300px;    /* så de inte blir för breda */
 }
 
+.space {
+  margin-top: 100px;
+}
+
 .two-wrapper {
   display: flex;
   align-items: center;

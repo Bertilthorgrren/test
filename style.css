@@ -3,6 +3,7 @@
   --text: #1f1f1f;
   --accent: #6b705c;
   --border: #e5e5e5;
+  --coler: #8A2622
 }
 
 * {
@@ -45,7 +46,7 @@ h1 {
   font-weight: 600;
   margin-bottom: 0.5rem;
   margin-top: 0.5rem;
-  color: #8A2622;
+  color: var(--coler);
 }
 
 .date {
@@ -80,7 +81,7 @@ h2 {
   font-family: "Bodoni MT", "Bodoni", serif;
   font-size: 1.6rem;
   margin-bottom: 0.5rem;
-  color: #8A2622;
+  color: var(--coler);
 }
 
 .two-columns {
@@ -115,14 +116,14 @@ h2 {
 .divider-vertical {
   width: 2px;
   height: 120px;
-  background: #8A2622;;
+  background: var(--coler);
 }
 
 p {
   margin: 0.5rem 0;
   font-size: 1.1rem;
   font-family: "Bodoni MT", "Bodoni", serif;
-  color: #8A2622;
+  color: var(--coler);
 }
 .map {
   max-width: 680px;       /* samma bredd som main */
@@ -135,13 +136,13 @@ p {
   width: 100%;            /* fyller sektionen horisontellt */
   height: 300px;          /* höjd på kartan */
   border: 2;              /* tar bort ram */
-  border-color: #8A2622;
+  border-color: var(--coler);
   border-radius: 8px;     /* valfritt, rundar hörn */
 }
 .divider {
   width: 160px;
   height: 2px;
-  background: #8A2622;  /*<var(--border);>*/
+  background: var(--coler); /*<var(--border);>*/
   margin: 2.5rem auto;
 }
 
@@ -150,7 +151,7 @@ p {
   margin-top: 1.2rem;
   padding: 0.9rem 1.6rem;
   border-radius: 999px;
-  background: #8A2622;
+  background: var(--coler);
   color: white;
   text-decoration: none;
   font-weight: 500;

@@ -3,7 +3,7 @@
   --text: #1f1f1f;
   --accent: #6b705c;
   --border: #e5e5e5;
-  --coler: #8A2622
+  --coler: #8A2622;
 }
 
 * {
@@ -41,7 +41,7 @@ header {
 }
 
 h1 {
-  font-family: "Bodoni MT", "Bodoni", serif;
+  
   font-size: 2.6rem;
   font-weight: 600;
   margin-bottom: 0.5rem;

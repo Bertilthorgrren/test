@@ -80,6 +80,7 @@ section {
 h2 {
   font-size: 1.6rem;
   margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
   color: var(--coler);
 }
 

@@ -212,24 +212,26 @@ button.addEventListener("click", function () {
   
 <!-- lösen -->
 <script>
-const correctPassword = "Stockholm";
+document.addEventListener("DOMContentLoaded", function () {
+  const correctPassword = "brollop2026";
+  const loginScreen = document.getElementById("login-screen");
 
-if (localStorage.getItem("authenticated") === "true") {
-  document.getElementById("login-screen").style.display = "none";
-}
-
-function checkPassword() {
-  const input = document.getElementById("passwordInput").value;
-
-  if (input === correctPassword) {
-    localStorage.setItem("authenticated", "true");
-    document.getElementById("login-screen").style.display = "none";
-  } else {
-    document.getElementById("error-message").textContent = "Fel lösenord";
+  if (localStorage.getItem("authenticated") === "true") {
+    loginScreen.style.display = "none";
   }
-}
+
+  window.checkPassword = function () {
+    const input = document.getElementById("passwordInput").value;
+
+    if (input === correctPassword) {
+      localStorage.setItem("authenticated", "true");
+      loginScreen.style.display = "none";
+    } else {
+      document.getElementById("error-message").textContent = "Fel lösenord";
+    }
+  };
+});
 </script>
-  
 </body>
 </html>
 

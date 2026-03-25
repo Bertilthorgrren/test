@@ -15,24 +15,28 @@
 </head>
 <body>
 
-  <!-- Lösen -->
-<div id="login-screen">
-  <div class="login-box">
-    <h1>Välkommen</h1>
-    <p>Ange lösenord för att komma in</p>
-
-    <input type="password" id="passwordInput" placeholder="Lösenord">
-
-    <button class="button" onclick="checkPassword()">
-      Gå vidare
-    </button>
-
-    <p id="error-message"></p>
-  </div>
-</div>
-
   <main>
-  
+  <!-- Lösen -->
+<script>
+const password = "brollop2026";
+
+// Kolla om användaren redan är godkänd
+if (localStorage.getItem("authenticated") === "true") {
+  // gör inget — sidan visas
+} else {
+  let userInput = prompt("Ange lösenord:");
+
+  if (userInput === password) {
+    // Spara att användaren är godkänd
+    localStorage.setItem("authenticated", "true");
+  } else {
+    document.body.innerHTML = "<h2>Fel lösenord</h2>";
+  }
+}
+</script>
+
+
+    
     <!-- LOGGA -->
   <div class="logo-container">
     <img src="LOGGASB2.png" alt="Logga bröllop" class="logo">
@@ -210,28 +214,6 @@ button.addEventListener("click", function () {
   </div>
   </main>
   
-<!-- lösen -->
-<script>
-document.addEventListener("DOMContentLoaded", function () {
-  const correctPassword = "brollop2026";
-  const loginScreen = document.getElementById("login-screen");
-
-  if (localStorage.getItem("authenticated") === "true") {
-    loginScreen.style.display = "none";
-  }
-
-  window.checkPassword = function () {
-    const input = document.getElementById("passwordInput").value;
-
-    if (input === correctPassword) {
-      localStorage.setItem("authenticated", "true");
-      loginScreen.style.display = "none";
-    } else {
-      document.getElementById("error-message").textContent = "Fel lösenord";
-    }
-  };
-});
-</script>
 </body>
 </html>
 

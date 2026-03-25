@@ -17,20 +17,42 @@
 
   <main>
 
+<div id="login-screen">
+  <div class="login-box">
+    <h1>Välkommen</h1>
+    <p>Ange lösenord för att komma in på sidan</p>
+
+    <input 
+      type="password" 
+      id="passwordInput" 
+      placeholder="Lösenord"
+      class="password-field"
+    >
+
+    <button class="button" onclick="checkPassword()">
+      Gå vidare
+    </button>
+
+    <p id="error-message"></p>
+  </div>
+</div>
+
 <script>
-const password = "Stockholm";
+const correctPassword = "brollop2026";
 
-// Kolla om användaren redan är godkänd
+// Om redan inloggad — visa sidan direkt
 if (localStorage.getItem("authenticated") === "true") {
-  // gör inget — sidan visas
-} else {
-  let userInput = prompt("Ange lösenord:");
+  document.getElementById("login-screen").style.display = "none";
+}
 
-  if (userInput === password) {
-    // Spara att användaren är godkänd
+function checkPassword() {
+  const input = document.getElementById("passwordInput").value;
+
+  if (input === correctPassword) {
     localStorage.setItem("authenticated", "true");
+    document.getElementById("login-screen").style.display = "none";
   } else {
-    document.body.innerHTML = "<h2>Fel lösenord</h2>";
+    document.getElementById("error-message").textContent = "Fel lösenord";
   }
 }
 </script>

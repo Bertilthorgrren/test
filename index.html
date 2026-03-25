@@ -19,14 +19,9 @@
 <div id="login-screen">
   <div class="login-box">
     <h1>Välkommen</h1>
-    <p>Ange lösenord för att komma in på sidan</p>
+    <p>Ange lösenord för att komma in</p>
 
-    <input 
-      type="password" 
-      id="passwordInput" 
-      placeholder="Lösenord"
-      class="password-field"
-    >
+    <input type="password" id="passwordInput" placeholder="Lösenord">
 
     <button class="button" onclick="checkPassword()">
       Gå vidare
@@ -36,28 +31,6 @@
   </div>
 </div>
 
-<script>
-const correctPassword = "brollop2026";
-
-// Om redan inloggad — visa sidan direkt
-if (localStorage.getItem("authenticated") === "true") {
-  document.getElementById("login-screen").style.display = "none";
-}
-
-function checkPassword() {
-  const input = document.getElementById("passwordInput").value;
-
-  if (input === correctPassword) {
-    localStorage.setItem("authenticated", "true");
-    document.getElementById("login-screen").style.display = "none";
-  } else {
-    document.getElementById("error-message").textContent = "Fel lösenord";
-  }
-}
-</script>
-
-
-  
   <main>
   
     <!-- LOGGA -->
@@ -236,7 +209,27 @@ button.addEventListener("click", function () {
     <img src="LOGGASB2.png" alt="Logga bröllop" class="logo">
   </div>
   </main>
+  
+<!-- lösen -->
+<script>
+const correctPassword = "brollop2026";
 
+if (localStorage.getItem("authenticated") === "true") {
+  document.getElementById("login-screen").style.display = "none";
+}
+
+function checkPassword() {
+  const input = document.getElementById("passwordInput").value;
+
+  if (input === correctPassword) {
+    localStorage.setItem("authenticated", "true");
+    document.getElementById("login-screen").style.display = "none";
+  } else {
+    document.getElementById("error-message").textContent = "Fel lösenord";
+  }
+}
+</script>
+  
 </body>
 </html>
 

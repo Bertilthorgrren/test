@@ -20,10 +20,18 @@
 <script>
 const password = "Stockholm";
 
-let userInput = prompt("Ange lösenord:");
+// Kolla om användaren redan är godkänd
+if (localStorage.getItem("authenticated") === "true") {
+  // gör inget — sidan visas
+} else {
+  let userInput = prompt("Ange lösenord:");
 
-if (userInput !== password) {
-  document.body.innerHTML = "<h2>Fel lösenord</h2>";
+  if (userInput === password) {
+    // Spara att användaren är godkänd
+    localStorage.setItem("authenticated", "true");
+  } else {
+    document.body.innerHTML = "<h2>Fel lösenord</h2>";
+  }
 }
 </script>
   
